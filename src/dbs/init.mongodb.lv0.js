@@ -2,8 +2,8 @@
 
 const mongoose = require('mongoose')
 
-const connectString = `mongodb+srv://khaitruong190220:khaitruong190220@cluster0.wevv41s.mongodb.net/KAI-MART`
-// const connectString = `http://localhost:27017/KAI-MART`
+// const connectString = `mongodb+srv://khaitruong190220:khaitruong190220@cluster0.wevv41s.mongodb.net/KAI-MART`
+const connectString = `mongodb://localhost:27017/KAI-MART`
 
 mongoose.connect(connectString)
 .then( _ => console.log('Connected to Mongoose Success'))

@@ -4,7 +4,8 @@ const mongoose = require('mongoose')
 const {db: {username, password, namedb}} = require('../configs/config.mongodb')
 // const { countConnect } = require('../helper/check.connect')
 
-const connectString = `mongodb+srv://${username}:${password}@cluster0.wevv41s.mongodb.net/${namedb}`
+// const connectString = `mongodb+srv://${username}:${password}@cluster0.wevv41s.mongodb.net/${namedb}`
+const connectString = `mongodb://localhost:27017/KAI-MART`
 
 class Database {
 
